@@ -11,6 +11,6 @@ More in depth tokenization (+training): https://huggingface.co/learn/llm-course/
 Do tokens initially get assigned to the same embedding every time, before they become contextual token embeddings?
 
 
-
+/n
 
 When a token gets embedded in the form of a vector, the dimension of said vector is the same throughout the model (at this embedding stage).
