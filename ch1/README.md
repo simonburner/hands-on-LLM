@@ -1,4 +1,4 @@
-A complicated start! Followed the concepts without much issue until I reached "Encoding and Decoing Context with Attention", the foundation makes of the concept makes sense, however the broader "Attention" concept implemented in other architectures becomes hard to follow. The links below helped me understand the concepts a bit better.  
+A complicated start! Followed the concepts without much issue until I reached "Encoding and Decoing Context with Attention", the foundation of the concept makes sense, however the broader "Attention" concept implemented in other architectures becomes hard to follow. The links below helped me understand the concepts a bit better.  
 
 Helpful youtube videos:\
 [RNNs explained by StatQuest](https://www.youtube.com/watch?v=AsNTP8Kwu80)\
