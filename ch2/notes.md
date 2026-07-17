@@ -39,10 +39,10 @@ to have a space before them.
 [More in depth tokenization (+training) by HuggingFace](https://huggingface.co/learn/llm-course/chapter6/1)  
 
 ### Projects  
-1. apology_email uses Phi-3 to generate an apology email. Additionally, I converted the input into tokens and token ids, and the output into token ids, to get a better understanding how they are represented at each stage of tokenization.
-2. vector_dimension is to better comprehend what dimension a vector is after a token is embedded. Interesting to see that the embedded vector when using the all-mpnet-base-v2 model is 768 dimensions, that's a lot of numbers for quite a short sentence!
-3. similar_words searches for similar words to "king", returning a similarity score.
-4. song_embedding_model trains a Word2Vec model to recommend songs based on one input song. It knows what songs are similar to the other based on how many times the input song and the recommended song exist in a same playlist (the playlists are a dataset).
-5. BPE_tokenization: followed the HuggingFace guide for BPE tokenization training
-6. wordpiece_tokenization: followed the HuggingFace guide for WordPiece tokenization training
+1. **apology_email** uses Phi-3 to generate an apology email. Additionally, I converted the input into tokens and token ids, and the output into token ids, to get a better understanding how they are represented at each stage of tokenization.
+2. **vector_dimension** is to better comprehend what dimension a vector is after a token is embedded. Interesting to see that the embedded vector when using the all-mpnet-base-v2 model is 768 dimensions, that's a lot of numbers for quite a short sentence!
+3. **similar_words** searches for similar words to "king", returning a similarity score.
+4. **song_embedding_model** trains a Word2Vec model to recommend songs based on one input song. It knows what songs are similar to the other based on how many times the input song and the recommended song exist in a same playlist (the playlists are a dataset).
+5. **BPE_tokenization:** followed the HuggingFace guide for BPE tokenization training
+6. **wordpiece_tokenization:** followed the HuggingFace guide for WordPiece tokenization training
 
