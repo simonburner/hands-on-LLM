@@ -14,7 +14,7 @@
   5. The pair with the highest result gets joined to a token and updated both in the vocabulary and the list created in step ii.
   6. The process is repeated from step iv until we reach the defined vocabulary size.
 
-    To indicate if two or more subwords create a word, the ## characters are added to the
+  To indicate if two or more subwords create a word, the ## characters are added to the
 beginning of a subword, indicating it's part of a bigger word. Tokens without ## are assumed
 to have a space before them.
     When the tokenizer is trained, we can pass an input with a new word, WordPiece will then search for the longest subword that is in the existing vocabulary. If the new word isn't related to any existing subword in the vocabulary, the word will be tokenized as "[UNK]". 
@@ -27,8 +27,8 @@ to have a space before them.
   5. The pair which is repeated with highest frequency gets added in the vocabulary and updated in the list created in step ii.
   6. The process is repeated from step iv until we reach the defined vocabulary size.
  
-     To indicate if two or more subwords create a word, the whitespace before a subword will be included in the tokenization of that subword (symbol Ġ in Huggingface).
-     If a new word is to be tokenized, and only part of that word (subword) exists, the existing subword is tokenized as defined in the vocabulary, and the rest of the word is tokenized as "[UNK]".
+  To indicate if two or more subwords create a word, the whitespace before a subword will be included in the tokenization of that subword (symbol Ġ in Huggingface).
+  If a new word is to be tokenized, and only part of that word (subword) exists, the existing subword is tokenized as defined in the vocabulary, and the rest of the word is tokenized as "[UNK]".
 
 - The essential difference between the two tokenizers are that BPE merges the most frequently occurring characters, and WordPiece uses a function to obtain a score the pair with the most likely mutual information.
 
