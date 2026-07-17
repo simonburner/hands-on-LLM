@@ -1,3 +1,5 @@
+## Notes
+
 ### Key takeaways:
 
 - Different models have different tokenization methods, this depends on the type of algorithm (i.e. BPE/WordPiece) but also the parameters we pass (such as special tokens, capitalization, vocabulary size) and the dataset the tokenizer is trained on. For example, a model developed to process and generate code, will have a dedicated token for indentation spaces.  
