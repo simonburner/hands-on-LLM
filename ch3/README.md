@@ -4,3 +4,7 @@
 ### Useful links  
 [Attention visualized (video)](https://www.youtube.com/watch?v=RNF0FvRjGZk)  
 [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+
+
+### Pending questions  
+- When an embedding has gone through the transformer block, how does it get converted (or "translated") into a token id?
