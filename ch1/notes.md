@@ -7,7 +7,7 @@ Helpful youtube videos:\
 [Encoder-only transformers explained by StatQuest](https://www.youtube.com/watch?v=GDN649X_acE)\
 [Decoder-only transformers explained by StatQuest](https://www.youtube.com/watch?v=bQ5BoolX9Ag)
 
-As for the final exercise, I changed device_map to "auto" (instead of "cuda"), "cuda" didn't work on Colab. There seems to be some updates to the "transformers" library to include Phi-3 natively, consensus on the HuggingFace forum is to leave trust_remote_code out. Now a machine can take over my joke telling abilities, which wasn't hard in the first place! :)
+There seems to be some updates to the "transformers" library to include Phi-3 natively, consensus on the HuggingFace forum is to leave trust_remote_code out. Now a machine can take over my joke telling abilities, which wasn't hard in the first place!
 
 Pending questions:
 1. How does a model find the equivalent of a word in another language with context in mind?
