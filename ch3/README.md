@@ -27,11 +27,11 @@
 
 - Before the attention layer, the embedding vector gets summed up with a positional embedding, which defines the order of the words in the input sequence.
 
-  <img width="747" height="452" alt="Screenshot 2026-07-24 at 11 20 02" src="https://github.com/user-attachments/assets/419ba587-dddf-49cc-b493-0f9f60dd792b" />
-
-- This is how it would look like in real life for embeddings with 64 dimensions.
-
   <img width="521" height="200" alt="Screenshot 2026-07-24 at 11 19 10" src="https://github.com/user-attachments/assets/f7b622fe-7726-40af-9848-26099fc9ba87" />
+
+- This is how the positional embedding vectors would look like in real life for embeddings with 64 dimensions.
+
+  <img width="747" height="452" alt="Screenshot 2026-07-24 at 11 20 02" src="https://github.com/user-attachments/assets/419ba587-dddf-49cc-b493-0f9f60dd792b" />
 
 
 
