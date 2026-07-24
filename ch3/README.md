@@ -1,6 +1,6 @@
 ## Notes
 
-### Key takeaways
+### Key takeaways  
 - LLMs using the Transformer architecture generate one token at a time, which is appended to the initial prompt and flows through the model again to generate the next token, repeating until the output is completed.
 - There are three components to a Transformer LLM: the tokenizer, the transformer blocks and the language modeling head:
 
@@ -40,5 +40,5 @@
 [The Illustrated Transformer by Jay Alammar](https://jalammar.github.io/illustrated-transformer/)
 
 
-### Pending questions  
-- When an embedding has gone through the transformer block, how does it get converted (or "translated") into a token id?
+### Pending questions / to-dos  
+- Dive deeper into what the FFNN does.
