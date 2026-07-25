@@ -55,3 +55,5 @@ formal email to your boss, you might not want to use an informal tone of voice."
 
 - "Data
 The main data related to the task itself."
+
+<img width="661" height="474" alt="Screenshot 2026-07-25 at 20 20 58" src="https://github.com/user-attachments/assets/61d1ab34-d952-4e88-a562-0cee31554ac0" />
