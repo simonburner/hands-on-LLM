@@ -26,3 +26,32 @@ Either begin or end your prompt with the instruction. Especially with long
 prompts, information in the middle is often forgotten.1 LLMs tend to focus on
 information either at the beginning of a prompt (primacy effect) or the end of a
 prompt (recency effect)."
+
+- "Persona
+Describe what role the LLM should take on. For example, use “You are an expert
+in astrophysics” if you want to ask a question about astrophysics."
+
+- "Instruction
+The task itself. Make sure this is as specific as possible. We do not want to leave
+much room for interpretation."
+
+- "Context
+Additional information describing the context of the problem or task. It answers
+questions like “What is the reason for the instruction?”"
+
+- "Format
+The format the LLM should use to output the generated text. Without it, the
+LLM will come up with a format itself, which is troublesome in automated
+systems."
+
+- "Audience
+The target of the generated text. This also describes the level of the generated
+output. For education purposes, it is often helpful to use ELI5 (“Explain it like
+I’m 5”)."
+
+- "Tone
+The tone of voice the LLM should use in the generated text. If you are writing a
+formal email to your boss, you might not want to use an informal tone of voice."
+
+- "Data
+The main data related to the task itself."
