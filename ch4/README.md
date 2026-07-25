@@ -29,8 +29,8 @@
 - The book takes the weigthed average of the F1 score into account (highlighted in bold).
 
 ### Links
-[Huggingface MTEB Leaderboard](https://huggingface.co/spaces/mteb/leaderboard): to select the most relevant model for an application  
-[How OpenAI trained ChatGPT](https://openai.com/index/chatgpt/)
+- [Huggingface MTEB Leaderboard](https://huggingface.co/spaces/mteb/leaderboard): to select the most relevant model for an application  
+- [How OpenAI trained ChatGPT](https://openai.com/index/chatgpt/)
 
 ### Projects
 1. **classification_task_specific:** both dataset and model libraries seem to have been modified since the publication of the book. I used the "cardiffnlp/twitter-roberta-base-sentiment-latest" pre-trained model that classifies positive/neutral/negative tweets. I had to group the negative and neutral labels of the model together as the dataset only had negative=0 and positive=1 labels.
