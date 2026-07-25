@@ -4,23 +4,24 @@
 
 <img width="696" height="267" alt="Screenshot 2026-07-25 at 20 00 53" src="https://github.com/user-attachments/assets/42cdf74e-e182-4066-98ad-3b9fcae492f3" />
 
+### Helpful prompting guidelines:
 
-"Although a prompt is a single piece of text, it is tremendously helpful to think of
+- "Although a prompt is a single piece of text, it is tremendously helpful to think of
 prompts as pieces of a larger puzzle. Have I described the context of my question?
 Does the prompt have an example of the output?"
 
-"Specificity
+- "Specificity
 Accurately describe what you want to achieve. Instead of asking the LLM to
 “Write a description for a product” ask it to “Write a description for a product in
 less than two sentences and use a formal tone.”"
 
-"Hallucination
+- "Hallucination
 LLMs may generate incorrect information confidently, which is referred to as
 hallucination. To reduce its impact, we can ask the LLM to only generate an
 answer if it knows the answer. If it does not know the answer, it can respond with
 “I don’t know.”"
 
-"Order
+- "Order
 Either begin or end your prompt with the instruction. Especially with long
 prompts, information in the middle is often forgotten.1 LLMs tend to focus on
 information either at the beginning of a prompt (primacy effect) or the end of a
