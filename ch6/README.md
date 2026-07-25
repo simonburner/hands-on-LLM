@@ -1,0 +1,3 @@
+- do_sample set to True will allow the model to sample more likely output tokens, and if set to false the most probable next token is selected.
+- temperature controls the randomness/creativity of the output tokens. In theory, a temperature of 0 will generate the same output every time, whereas a temperature set closer to one will enhance the probability of different outputs.
+- top_p is a sampling technique that controls which output tokens the LLM considers. If the top_p is set to 0.1, it will consider tokens until it reaches that value of cumulative probability, and if it's st to 1, it will consider all tokens.
