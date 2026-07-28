@@ -37,6 +37,20 @@
 
     <img width="604" height="271" alt="Screenshot 2026-07-28 at 19 51 13" src="https://github.com/user-attachments/assets/c68ff864-177a-4034-847d-31a0b1c5bbb3" />
 
+### Agents
+
+- Agents are systems that use a LLM to determine which actions they should take and it what order.
+- They can make use of model I/O, chains and memory, plus:
+  - Tools: to do things the agent can't do itself
+  - Agent type: which plans the actions to take or tools to use
+
+- They're able to create and self correct themselves to achieve a goal, and also interact with the real world with tools.
+- Many agent-based systems use the ReAct (Reasoning and Acting) framework.
+- ReAct merges the concepts of allowing reasoning to affect acting and actions to affect reasoning. In practice, the framework iterates following these steps: Thought, Action, Observation.
+
+  <img width="515" height="284" alt="Screenshot 2026-07-28 at 20 10 48" src="https://github.com/user-attachments/assets/b8cff92a-3bec-47c3-a08f-1c93e2058bde" />
+
+  <img width="580" height="431" alt="Screenshot 2026-07-28 at 20 11 13" src="https://github.com/user-attachments/assets/307be3ca-c199-4df7-8f26-adca3f0ea4d3" />
 
 ## Projects
 
