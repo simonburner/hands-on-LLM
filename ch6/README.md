@@ -54,6 +54,43 @@ The tone of voice the LLM should use in the generated text. If you are writing a
 formal email to your boss, you might not want to use an informal tone of voice."
 
 - "Data
-The main data related to the task itself."
+The main data related to the task itself."  
 
 <img width="661" height="474" alt="Screenshot 2026-07-25 at 20 20 58" src="https://github.com/user-attachments/assets/61d1ab34-d952-4e88-a562-0cee31554ac0" />
+
+### In-context learning:
+
+  <img width="682" height="378" alt="Screenshot 2026-07-28 at 09 32 29" src="https://github.com/user-attachments/assets/037596e5-9ac7-4ca0-abdc-de6589f5b120" />
+
+### Chain prompting:
+
+  <img width="681" height="405" alt="Screenshot 2026-07-28 at 10 38 37" src="https://github.com/user-attachments/assets/66b6e3a2-f16d-4971-931e-80ec7b62ae61" />
+
+### Reasoning with generative models
+
+- Chain-of-Thought: Think Before Answering: aims to have the generative model “think” first rather than answering the question directly without any reasoning.
+  
+  <img width="663" height="485" alt="Screenshot 2026-07-28 at 10 51 30" src="https://github.com/user-attachments/assets/e7f9862e-671f-4d29-9b84-f86d9e724866" />
+
+  However, instead of providing examples as in the guide above, we can simply ask the model to do the reasoning itself, which is called zero-shot chain-of-thought.
+
+  <img width="454" height="348" alt="Screenshot 2026-07-28 at 11 08 59" src="https://github.com/user-attachments/assets/b6f9f792-ef53-43f1-ae76-c4ff88dea733" />
+
+- Self-consistency: A method that asks a generative model the same prompt multiple times and outputs the majority result. During the process, the temperature and top_p parameters can be modified to expand the potential answers.
+
+  <img width="675" height="510" alt="Screenshot 2026-07-28 at 11 18 29" src="https://github.com/user-attachments/assets/3b6c9c06-94b3-4898-a55f-b59191e164d2" />
+
+  Time tedious process, it becomes n times slower where n is  the number of output samples.
+
+- Tree-of-Thought: A method that breaks the reasoning process into smaller pieces. At each step, the model is prompted to explore different solutions to a problem. Then, it votes for the best solution and continues to the next step.
+
+  <img width="453" height="485" alt="Screenshot 2026-07-28 at 11 25 19" src="https://github.com/user-attachments/assets/79f0a20d-4ec6-40a3-ae9d-973f7b3a2110" />
+
+  The main disadvantage to this method is that it requires many calls to the generative models, thus slowing the process down. However, this can be mitigated to some degree: instead of calling the generative model multiple times, we can ask the model to mimic this process by emulating a conversation between multiple experts.
+
+
+
+
+
+
+
