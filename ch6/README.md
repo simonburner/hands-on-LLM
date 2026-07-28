@@ -82,7 +82,7 @@ The main data related to the task itself."
 
   Time tedious process, it becomes n times slower where n is  the number of output samples.
 
-- Tree-of-Thought: A method that breaks the reasoning process into smaller pieces. At each step, the model is prompted to explore different solutions to a problem. Then, it votes for the best solution and continues to the next step.
+- Tree-of-Thought: Improves on Chain-of-Thought and Self-consistency. A method that breaks the reasoning process into smaller pieces. At each step, the model is prompted to explore different solutions to a problem. Then, it votes for the best solution and continues to the next step.
 
   <img width="453" height="485" alt="Screenshot 2026-07-28 at 11 25 19" src="https://github.com/user-attachments/assets/79f0a20d-4ec6-40a3-ae9d-973f7b3a2110" />
 
