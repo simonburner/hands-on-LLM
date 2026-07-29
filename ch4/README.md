@@ -1,4 +1,4 @@
-## Notes  
+## Chapter 4: Text classification  
 
 ### Key takeaways
 - To classify textual data we can use both generative and representation models.
