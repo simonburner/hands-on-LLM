@@ -1,4 +1,4 @@
-## Notes
+## Chapter 3: Looking inside Large Language Models
 
 ### Key takeaways  
 - LLMs using the Transformer architecture generate one token at a time, which is appended to the initial prompt and flows through the model again to generate the next token, repeating until the output is completed.
