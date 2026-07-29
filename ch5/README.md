@@ -1,4 +1,4 @@
-## Notes
+## Chapter 5: Text Clustering and Topic Modeling
 
 ## Key takeaways
 - Clustering differs from classification in that it's an unsupervised learning method that groups unlabeled data to topics based on how similar it is.
