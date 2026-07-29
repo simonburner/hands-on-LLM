@@ -1,4 +1,4 @@
-## Notes
+## Chapter 1: An Introduction to Large Language Models
 
 ### Key takeaways
 A complicated start! Followed the concepts without much issue until I reached "Encoding and Decoing Context with Attention", the foundation of the concept makes sense, however the broader "Attention" concept implemented in other architectures becomes hard to follow. Chapter 3 covers attention a bit more in detail.  
