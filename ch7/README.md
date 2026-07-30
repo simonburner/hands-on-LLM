@@ -1,6 +1,6 @@
-## Chapter 7: Advanced Text Generation Techniques and Tools
+# Chapter 7: Advanced Text Generation Techniques and Tools
 
-### Key takeaways
+## Key takeaways
 
 Further concepts that improve the quality of a generated text:
 - Model I/O
@@ -12,7 +12,7 @@ These methods are integrated in the LangChain framework:
 
 <img width="569" height="157" alt="Screenshot 2026-07-28 at 17 06 33" src="https://github.com/user-attachments/assets/b177b65f-4552-4939-b5df-c44d76606bd1" />
 
-#### Chains
+### Chains
 
 - LLMs truly shine when used together with additional components. Chains extend the capabilities of LLMs as they connect multiple components together (such as an additional tool, feature or prompt).
 - Example: Phi-3 expects a specific prompt template, so we can create a prompt template using chains.
@@ -27,7 +27,7 @@ These methods are integrated in the LangChain framework:
 
   <img width="503" height="190" alt="Screenshot 2026-07-28 at 18 14 26" src="https://github.com/user-attachments/assets/a621ae4d-53b7-4b31-96fa-56025c08eb73" />
 
-#### Memory
+### Memory
 
 - LLMs are stateless, they have no memory of any previous conversation.
 - To make them have memory of a conversation, we can add a conversation buffer or conversation memory:
@@ -49,7 +49,7 @@ These methods are integrated in the LangChain framework:
 
     <img width="604" height="271" alt="Screenshot 2026-07-28 at 19 51 13" src="https://github.com/user-attachments/assets/c68ff864-177a-4034-847d-31a0b1c5bbb3" />
 
-#### Agents
+### Agents
 
 - Agents are systems that use a LLM to determine which actions they should take and it what order.
 - They can make use of model I/O, chains and memory, plus:
@@ -64,7 +64,7 @@ These methods are integrated in the LangChain framework:
 
   <img width="580" height="431" alt="Screenshot 2026-07-28 at 20 11 13" src="https://github.com/user-attachments/assets/307be3ca-c199-4df7-8f26-adca3f0ea4d3" />
 
-### Projects
+## Projects
 
 **chains_n_memory**: implemented the above concepts using the LangChain framework (which works a little bit different that the previously used "transformers" framework from HuggingFace.
 
