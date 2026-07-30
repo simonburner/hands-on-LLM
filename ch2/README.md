@@ -1,6 +1,6 @@
-## Chapter 2: Tokens and Embeddings
+# Chapter 2: Tokens and Embeddings
 
-### Key takeaways:
+## Key takeaways:
 
 - Different models have different tokenization methods, this depends on the type of algorithm (i.e. BPE/WordPiece) but also the parameters we pass (such as special tokens, capitalization, vocabulary size) and the dataset the tokenizer is trained on. For example, a model developed to process and generate code, will have a dedicated token for indentation spaces.  
 - In BERT models, which use WordPiece tokenization, the training of its tokenizer is as follows:
@@ -36,11 +36,11 @@ to have a space before them.
 
 <img width="814" height="596" alt="Screenshot 2026-07-16 at 22 58 09" src="https://github.com/user-attachments/assets/268d98d3-a1d2-4f40-897f-9bf05e6b1a61" />
 
-### Helpful links  
+## Helpful links  
 [Tokenization summary by HuggingFace](https://huggingface.co/docs/transformers/tokenizer_summary)\
 [More in depth tokenization (+training) by HuggingFace](https://huggingface.co/learn/llm-course/chapter6/1)  
 
-### Projects  
+## Projects  
 1. **apology_email** uses Phi-3 to generate an apology email. Additionally, I converted the input into tokens and token ids, and the output into token ids, to get a better understanding how they are represented at each stage of tokenization.
 2. **vector_dimension** is to better comprehend what dimension a vector is after a token is embedded. Interesting to see that the embedded vector when using the all-mpnet-base-v2 model is 768 dimensions, that's a lot of numbers for quite a short sentence!
 3. **similar_words** searches for similar words to "king", returning a similarity score.
