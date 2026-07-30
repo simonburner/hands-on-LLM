@@ -1,8 +1,8 @@
-## Chapter 6: Prompt Engineering
+# Chapter 6: Prompt Engineering
 
-### Key takeaways
+## Key takeaways
 
-#### Controlling model output with 🤗 transformers:
+### Controlling model output with 🤗 transformers:
 
 - do_sample set to True will allow the model to sample more likely output tokens, and if set to false the most probable next token is selected.
 - temperature controls the randomness/creativity of the output tokens. In theory, a temperature of 0 will generate the same output every time, whereas a temperature set closer to one will enhance the probability of different outputs.
@@ -10,7 +10,7 @@
 
 <img width="696" height="267" alt="Screenshot 2026-07-25 at 20 00 53" src="https://github.com/user-attachments/assets/42cdf74e-e182-4066-98ad-3b9fcae492f3" />
 
-#### Helpful prompting tips:
+### Helpful prompting tips:
 
 Although a prompt is a single piece of text, it is tremendously helpful to think of prompts as pieces of a larger puzzle. Have I described the context of my question? Does the prompt have an example of the output? Take the following into account:
 
@@ -36,15 +36,15 @@ Although a prompt is a single piece of text, it is tremendously helpful to think
 
 <img width="661" height="474" alt="Screenshot 2026-07-25 at 20 20 58" src="https://github.com/user-attachments/assets/61d1ab34-d952-4e88-a562-0cee31554ac0" />
 
-#### In-context learning:
+### In-context learning:
 
   <img width="682" height="378" alt="Screenshot 2026-07-28 at 09 32 29" src="https://github.com/user-attachments/assets/037596e5-9ac7-4ca0-abdc-de6589f5b120" />
 
-#### Chain prompting:
+### Chain prompting:
 
   <img width="681" height="405" alt="Screenshot 2026-07-28 at 10 38 37" src="https://github.com/user-attachments/assets/66b6e3a2-f16d-4971-931e-80ec7b62ae61" />
 
-#### Reasoning with generative models
+### Reasoning with generative models
 
 - Chain-of-Thought: Think Before Answering: aims to have the generative model “think” first rather than answering the question directly without any reasoning.
   
@@ -66,7 +66,7 @@ Although a prompt is a single piece of text, it is tremendously helpful to think
 
   The main disadvantage to this method is that it requires many calls to the generative models, thus slowing the process down. However, this can be mitigated to some degree: instead of calling the generative model multiple times, we can ask the model to mimic this process by emulating a conversation between multiple experts.
 
-### Projects
+## Projects
 
 **prompt_engineering:** implements the above concepts with 🤗 transformers.
 
