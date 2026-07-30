@@ -1,6 +1,6 @@
-## Chapter 3: Looking inside Large Language Models
+# Chapter 3: Looking inside Large Language Models
 
-### Key takeaways  
+## Key takeaways  
 - LLMs using the Transformer architecture generate one token at a time, which is appended to the initial prompt and flows through the model again to generate the next token, repeating until the output is completed.
 - There are three components to a Transformer LLM: the tokenizer, the transformer blocks and the language modeling head:
 
@@ -35,10 +35,10 @@
 
 
 
-### Useful links  
+## Useful links  
 [Attention in transformers, step-by-step by 3Blue1Brown](https://www.youtube.com/watch?v=eMlx5fFNoYc)  
 [The Illustrated Transformer by Jay Alammar](https://jalammar.github.io/illustrated-transformer/)
 
 
-### Pending questions / to-dos  
+## Pending questions / to-dos  
 - Dive deeper into what the FFNN does.
