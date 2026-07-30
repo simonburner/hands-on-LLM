@@ -1,4 +1,4 @@
-## Chapter 5: Text Clustering and Topic Modeling
+# Chapter 5: Text Clustering and Topic Modeling
 
 ## Key takeaways
 - Clustering differs from classification in that it's an unsupervised learning method that groups unlabeled data to topics based on how similar it is.
@@ -24,5 +24,5 @@
 
 - To further specify the topic of a cluster, we can use maximal marginal relevance, which avoids topic representations that are similar. 
 
-### Projects
+## Projects
 - **arXiv-dataset-clustering:** the above described methods are carried out in practice. Used a slightly different embedding model and text generation model, due to performance and library deprecation reasons.
