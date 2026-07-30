@@ -1,13 +1,13 @@
-## Chapter 8: Semantic Search and Retrieval-Augmented Generation
+# Chapter 8: Semantic Search and Retrieval-Augmented Generation
 
-### Key takeaways
+## Key takeaways
 
 - Semantic search: enables searching content by meaning, and not simply keyword matching.
 - RAG: system that retrieves relevant up-to-date information and provides it to the LLM to generate more factual answers.
 
 There's a lot of research on how LLMs are best used for search, the broad categories of these models are **dense retrieval**, **reranking** and **RAG**.
 
-#### Dense retrieval
+### Dense retrieval
 
 The LLM converts both the query and documents into embedding and retrieves the document embeddings what are nearest to the query embeddings.
 
@@ -28,7 +28,7 @@ If we only embed a representative part of the document, such as the tile, or the
 
 These embedded chunks then get compared to the input query and the nearest neighbour is then presented as an answer.
 
-#### Reranking
+### Reranking
 
 Tasked with scoring the relevance of a subset of document results against the query. Based on these scores, the order of importance of the documents is changed.
 
@@ -38,7 +38,7 @@ A popular way to build LLM search rerankers is by presenting each possible resul
 
 <img width="568" height="156" alt="Screenshot 2026-07-29 at 14 54 49" src="https://github.com/user-attachments/assets/5c8c407b-6d4f-4ce5-8877-5109d7ee5dd3" />
 
-#### RAG
+### RAG
 
 <img width="592" height="257" alt="Screenshot 2026-07-29 at 15 16 43" src="https://github.com/user-attachments/assets/820a270f-3d2c-43e0-828b-e9810eaa1c15" />
 
@@ -61,7 +61,7 @@ information we provide the LLM establishes a certain context that grounds the LL
   - Query routing: giving the model the ability to search multiple data sources. For example, accessing a company's HR or CRM program.
   - Agentic RAG
 
-### Useful links
+## Useful links
 
 - [Open source retrieval and reranking with sentence transformers](https://www.sbert.net/examples/sentence_transformer/applications/retrieve_rerank/README.html)
 
